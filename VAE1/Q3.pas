@@ -5,7 +5,11 @@ Begin
 	repeat 
 		write('Digite um número inteiro positivo: '); readln(N);
 		if N < 0 then continue; // se for negativo pula pro until
-		for i := 1 to (N DIV 2) do
-			if i*(i+1)*(i+2)=N then writeln(i, ' * ' , i+1, ' * ' , i+2 , ' = ', N);	
+		for i := 1 to N do
+			if i*(i+1)*(i+2)=N then
+			begin 
+				writeln(i, ' * ' , i+1, ' * ' , i+2 , ' = ', N);
+				break;
+			end;	
 	until N = -1; // flag de saída  
 End.
