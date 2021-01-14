@@ -37,7 +37,7 @@ end;
 
 var p,q, tent, i:integer;
 Begin
-  writeln('p = 23 e q = 57238 é? ', f_subnumero(23, 57238));
+	writeln('p = 23 e q = 57238 é? ', f_subnumero(23, 57238));
 	writeln('p = 23 e q = 258347 é? ', f_subnumero(23, 258347));
 	writeln('p = 23 e q = 238347 é? ', f_subnumero(23, 238347));
 	writeln('p = 58 e q = 258347 é? ', f_subnumero(58, 258347));

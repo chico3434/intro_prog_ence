@@ -42,10 +42,10 @@ Begin
 	begin
 		P.l := A.l;
 		p.c := B.c;		
-	  for i := 1 to P.l do
+		for i := 1 to P.l do
 	  	for j := 1 to P.c do
 	  		for k := 1 to A.c do
-	  				P.m[i,j] := P.m[i,j] + A.m[i,k]*B.m[k,j]; 	  				  			
+	  			P.m[i,j] := P.m[i,j] + A.m[i,k]*B.m[k,j]; 	  				  			
 	  		
 		
 		writeln('Matriz A:');

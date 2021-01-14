@@ -5,9 +5,9 @@ type vetor = array[1..TAM] of char;
 function f_pos_ultima(v: vetor; N: integer): integer;
 var i: integer;
 begin
-		f_pos_ultima := 1;
-		for i := 1 to N do
-		if (v[i] = ' ') then f_pos_ultima := i+1; // pelos exemplos vou considerar que nenhuma frase termina com espaço
+	f_pos_ultima := 1;
+	for i := 1 to N do
+	if (v[i] = ' ') then f_pos_ultima := i+1; // pelos exemplos vou considerar que nenhuma frase termina com espaço
 end;
 
 var frase: vetor;
