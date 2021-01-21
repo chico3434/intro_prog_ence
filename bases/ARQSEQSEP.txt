@@ -1,0 +1,9 @@
+ESCOLARIDADE,IDADE,FILHOS
+Mestrado,33,Sim
+Doutorado,28,Sim
+Mestrado,20,Não
+Doutorado,50,Sim
+Graduação,22,Não
+Graduação,31,Não
+Mestrado,42,Sim
+Mestrado,29,Sim

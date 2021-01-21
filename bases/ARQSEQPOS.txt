@@ -1,0 +1,8 @@
+Mestrado 33Sim
+Doutorado28Sim
+Mestrado 20Não
+Doutorado50Sim
+Graduacao22Não
+Graduacao31Não
+Mestrado 42Sim
+Mestrado 29Sim
