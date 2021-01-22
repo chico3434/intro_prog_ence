@@ -9,33 +9,22 @@ const out_path = 'C:\dev\intro_prog_ence\bases\RESULTADOS.TXT';
 const CAMPOS = 10;
 type vet = array[1..CAMPOS] of string;
 
-function first(s: string; c: char): integer;
-var i: integer;
-begin
-	first := 0;
-	for i:=1 to LENGTH(s) do
-		if s[i] = c then
-		begin
-			first := i;
-			break;
-		end; 
-end;
-
 function split(s: string; sep: char): vet;
-var len, p, i: integer;
+var i, ini, posi, len: integer;
 	vetor: vet;
-	temp: string;
 begin
-	temp := s;
-  for i := 1 to CAMPOS-1 do
-  begin
-    len := length(temp);
-    p := first(temp, sep);
-    vetor[i] := copy(temp,1,p-1);
-    temp := copy(temp,p+1,len-p);
-  end;
-  vetor[CAMPOS] := temp;
-  split:=vetor;
+	ini:=1;
+	posi:=1;
+	len := LENGTH(s);
+	for i:=1 to len do
+		if s[i] = sep then
+		begin
+			vetor[posi] := copy(s,ini,i - ini);
+			posi := posi + 1;
+			ini := i+1;		
+		end;
+		vetor[posi] := copy(s,ini,len+1-ini);
+		split := vetor; 
 end;
 
 {FIM -- Código do split para vetor de 10 campos -- FIM}
