@@ -1,58 +1,10 @@
 ================
-Aqui estarão os resultados
+    RESULTADOS    
 ================
-=== Registro 1 ===
-Age: 25
-Education: 11th
-Education num: 7
-Marital status: Never-married
-Occupation: Machine-op-inspct
-Race: Black
-Sex: Male
-Hours per week: 40
-Native country: United-States
-Income class: <=50K
-=== Registro 2 ===
-Age: 38
-Education: HS-grad
-Education num: 9
-Marital status: Married-civ-spouse
-Occupation: Farming-fishing
-Race: White
-Sex: Male
-Hours per week: 50
-Native country: United-States
-Income class: <=50K
-=== Registro 3 ===
-Age: 28
-Education: Assoc-acdm
-Education num: 12
-Marital status: Married-civ-spouse
-Occupation: Protective-serv
-Race: White
-Sex: Male
-Hours per week: 40
-Native country: United-States
-Income class: >50K
-=== Registro 4 ===
-Age: 44
-Education: Some-college
-Education num: 10
-Marital status: Married-civ-spouse
-Occupation: Machine-op-inspct
-Race: Black
-Sex: Male
-Hours per week: 40
-Native country: United-States
-Income class: >50K
-=== Registro 5 ===
-Age: 18
-Education: Some-college
-Education num: 10
-Marital status: Never-married
-Occupation: ?
-Race: White
-Sex: Female
-Hours per week: 30
-Native country: United-States
-Income class: <=50K
+Quantidade de pessoas que ganham mais de 50.000,00 dólares por ano: 11687
+Porcentagem de pessoas que ganham mais de 50.000,00 dólares por ano: 0.239282
+Probabilidade de uma pessoa ganhar mais de 50.000,00 dólares por ano dado que é do sexo feminino: 0.109251
+Probabilidade de uma pessoa ganhar mais de 50.000,00 dólares por ano dado que é do sexo masculino: 0.303767
+Probabilidade de uma pessoa ganhar mais de 50.000,00 dólares por ano dado que é um imigrante alemão: 0.281553
+Probabilidade de uma pessoa ganhar mais de 50.000,00 dólares por ano dado que é um imigrante mexicano: 0.049422
+================
